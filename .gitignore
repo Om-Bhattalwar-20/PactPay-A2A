@@ -1,0 +1,22 @@
+cat << 'EOF' > .gitignore
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+
+# Secrets
+.env
+.env.local
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
