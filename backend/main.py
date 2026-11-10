@@ -17,7 +17,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 async def query_channel3_catalog(query: str):
     """Simulated Channel3 Sponsor API for real-time B2B product sourcing."""
     await asyncio.sleep(1) 
