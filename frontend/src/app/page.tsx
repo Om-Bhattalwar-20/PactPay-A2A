@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import { ArrowUpRight, Play, Check, Sparkles, Loader2 } from "lucide-react";
-
 type LogEntry = {
   id: number;
   sender: "SYSTEM" | "BUYER" | "SELLER";
